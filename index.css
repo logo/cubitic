@@ -1,0 +1,21 @@
+
+/**
+ * Cubitic logo.
+ */
+
+.logo[data-logo="Cubitic"] {
+  width: 0;
+}
+
+.logo[data-logo="Cubitic"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Cubitic"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Cubitic"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
